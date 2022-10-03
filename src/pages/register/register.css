@@ -1,4 +1,4 @@
-.login{
+.register{
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
@@ -8,39 +8,39 @@
         rgba(255, 255, 255, 0.5),
         rgba(255, 255, 255, 0.5)
         ), 
-        url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+        url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
     background-size: cover;
 }
-.login-title{
+.register-title{
     font-size: 50px;
 }
-.login-form{
+.register-form{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
-.login-form > label{
+.register-form > label{
     margin: 10px 0;
 }
-.login-input{
+.register-input{
     padding: 10px;
     background-color: white;
     border: none;
 }
-.login-button{
+.register-button{
     margin-top: 20px;
     cursor: pointer;
-    background-color: lightcoral;
+    background-color: teal;
     border: none;
     color: white;
     border-radius: 10px;
     padding: 10px;
 }
-.login-register-button{
+.register-login-button{
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: teal;
+    background-color: lightcoral;
     cursor: pointer;
     border: none;
     padding: 10px;
